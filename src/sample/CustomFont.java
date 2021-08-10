@@ -9,13 +9,14 @@ import javafx.stage.Stage;
 
 public class CustomFont extends Application {
     public static void main(String[] args) {
-        Application.launch(args);
+        launch(args);
     }
 
     @Override
     public void start(Stage stage) throws Exception {
         Text text = new Text("ហួត បញ្ញាឫទ្ធិ");
-        Font font = Font.loadFont(CustomFont.class.getResource("KhmerOSMoul.ttf").toExternalForm(), 40);
+        String url = getClass().getResource("KhmerOSMoulLight.ttf").toExternalForm();
+        Font font = Font.loadFont(url, 40);
         System.out.println(font);
         text.setFont(font);
 

@@ -20,7 +20,7 @@ public class ButtonInPane extends Application {
         Button btn1 = new Button("My Button1");
         Button btn2 = new Button("My Button2");
         list.addAll(btn1,btn2);
-        pane.setMargin(btn1,new Insets(50,50,50,50));
+        StackPane.setMargin(btn1,new Insets(50,50,50,50));
         Scene scene = new Scene(pane, 200, 200);
         stage.setScene(scene);
         stage.setTitle("Button");

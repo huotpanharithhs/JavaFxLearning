@@ -17,7 +17,6 @@ public class Font extends Application {
 	}
 	@Override
 	public void start(Stage stage) throws Exception {
-		// TODO Auto-generated method stub
 		Circle circle = new Circle();
 		circle.setRadius(90);
 		circle.setFill(Color.WHITE);

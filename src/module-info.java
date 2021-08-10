@@ -4,4 +4,6 @@ module TestJavaFx {
     requires javafx.fxml;
 
     opens sample;
+    opens layout_sample;
+    opens testing;
 }
